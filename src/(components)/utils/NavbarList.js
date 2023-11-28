@@ -1,7 +1,7 @@
 import { usePathname } from "next/navigation"
 import navcss from '../Navbar/Navbar.module.css'
 import Link from "next/link";
-export default function createNavbarList(listitem, index) {
+export default function CreateNavbarList(listitem, index) {
 
     const path = usePathname();
     return <li key={index}>
