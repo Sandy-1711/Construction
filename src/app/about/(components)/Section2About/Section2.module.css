@@ -1,0 +1,10 @@
+.section {
+    height: max-content;
+    width: 100%;
+}
+
+.wrapper {
+    height: 100%;
+    width: 1100px;
+    margin: auto;
+}

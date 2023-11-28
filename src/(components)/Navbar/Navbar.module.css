@@ -1,0 +1,124 @@
+.navbarWrapper {
+    width: 100dvw;
+    height: max-content;
+    background: white;
+    position: relative;
+}
+
+.upper {
+    width: 1100px;
+    height: 100px;
+    margin: 0rem auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    transform: translate(0, 25%);
+}
+
+.accordion {
+    position: absolute;
+    width: 100%;
+    background: #040E26;
+    padding: 0.3rem 0;
+    /* left: 50%; */
+    /* transform: translate(-50%); */
+}
+
+.accordionWrapper {
+    width: 1100px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.accordionWrapper span {
+    color: white;
+}
+
+.accordionWrapper button {
+    padding: 10px 10px;
+    background: #FC5E28;
+    border: none;
+    cursor: pointer;
+    color: white;
+    border-radius: 5px;
+}
+
+.logo {
+    font-weight: 900;
+}
+
+.upper img {
+    width: 60px;
+    height: 60px;
+    object-fit: cover;
+}
+
+.upper p {
+    font-size: 12px;
+    font-weight: 600;
+}
+
+.upperIn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.navbar {
+    position: relative;
+    z-index: 100;
+    width: 100%;
+    background: #040E26;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 50px;
+    transform: translateY(50%);
+}
+
+.navbar ul {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.navbar ul li {
+    height: 100%;
+    list-style: none;
+}
+
+.navbar ul li a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    padding: 0 20px;
+    text-decoration: none;
+    cursor: pointer;
+    color: white;
+    font-weight: 500;
+}
+
+.active {
+    background: #FC5E28;
+}
+
+.navbarInner {
+    width: 1100px;
+    margin: auto;
+}
+
+.inquiryButton button {
+    font-weight: 600;
+    padding: 10px 10px;
+    background: #1E273C;
+    border-radius: 5px;
+    color: white;
+    border: none;
+    outline: none;
+    margin-right: 10px;
+}

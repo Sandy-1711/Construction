@@ -1,0 +1,136 @@
+.serviceSection {
+    width: 100%;
+    height: max-content;
+    padding: 5rem 0;
+    position: relative;
+}
+
+.serviceWrapper {
+    width: 1100px;
+    height: 100%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 50px;
+    position: relative;
+}
+
+.serviceBackground {
+    position: absolute;
+    bottom: 0;
+    height: 50%;
+    width: 100%;
+    z-index: 0;
+    background: #F3F5F6;
+}
+
+.text {
+    text-align: center;
+}
+
+.text p {
+    font-size: 14px;
+    font-weight: 600;
+    color: #FC5E28;
+    margin-bottom: 20px;
+}
+
+.text h2 {
+    font-size: 38px;
+}
+
+.services {
+    position: relative;
+    z-index: 1;
+    width: 100%;
+    height: 100%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 40px;
+}
+
+.service {
+    background: white;
+    box-shadow: 0 0px 1px grey;
+    height: max-content;
+    width: 100%;
+    margin: 40px;
+    padding-bottom: 3rem;
+    position: relative;
+}
+
+.serviceImage {
+    height: calc(100% / 2.5);
+    width: calc(100% - 30px);
+    margin: 15px auto;
+    margin-bottom: 0;
+    position: relative;
+}
+
+.serviceImage img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.serviceIcon {
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin: auto;
+    transform: translate(0, -50%);
+}
+
+.serviceIcon img {
+    filter: brightness(0.2);
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.serviceText {
+    transform: translate(0, -15%);
+    text-align: center;
+}
+
+.serviceText h2 {
+    font-size: 22px;
+    font-weight: 600;
+}
+
+.button {
+    position: absolute;
+    width: 60%;
+    bottom: 0;
+    left: 50%;
+    transform: translate(-50%, 50%);
+}
+
+.service:hover .button button {
+    background: #FC5E28;
+}
+
+.button button {
+    border: none;
+    outline: none;
+    color: white;
+    font-size: 18px;
+    font-weight: 500;
+    border-radius: 2.5px;
+    padding: 15px 0;
+    width: 100%;
+    background: #040e26;
+    cursor: pointer;
+}
+
+.serviceText p {
+    font-size: 15px;
+    line-height: 25px;
+    width: 80%;
+    margin: auto;
+    margin-top: 10px;
+    color: grey;
+}
