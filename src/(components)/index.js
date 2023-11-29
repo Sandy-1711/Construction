@@ -13,6 +13,7 @@ import Sec2Ad from "./Sec2Ad/Sec2Ad";
 import CustomHero from "./CustomHero/CustomHero";
 import Testimonial from "./Testimonial/Testimonial";
 import ContactSection from "./ContactSection/ContactSection";
+import FAQSection from "./FAQSection/FAQSection";
 export {
     Navbar,
     Hero,
@@ -29,4 +30,5 @@ export {
     CustomHero,
     Testimonial,
     ContactSection,
+    FAQSection,
 }
