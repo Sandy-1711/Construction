@@ -5,18 +5,22 @@ const data = [
     },
     {
         path: '/about',
-        pathName: 'ABOUT',
+        pathName: 'ABOUT US',
     },
     {
-        path: '/services',
-        pathName: 'SERVICES',
+        path: '/process',
+        pathName: 'PROCESS',
     },
     {
-        path: '/projects',
-        pathName: 'PROJECTS'
+        path: '/packages',
+        pathName: 'PACKAGES',
     },
     {
-        path: '/contacts',
+        path:'/faqs',
+        pathName: 'FAQs',
+    },
+    {
+        path: '/contact',
         pathName: 'CONTACTS',
     },
 ]

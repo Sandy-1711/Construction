@@ -10,7 +10,9 @@ import HeroImage from "./HeroImage/HeroImage";
 import Sec2Cards from "./Sec2Cards/Sec2cards";
 import Sec2About from "./Sec2About/Sec2About";
 import Sec2Ad from "./Sec2Ad/Sec2Ad";
-
+import CustomHero from "./CustomHero/CustomHero";
+import Testimonial from "./Testimonial/Testimonial";
+import ContactSection from "./ContactSection/ContactSection";
 export {
     Navbar,
     Hero,
@@ -24,4 +26,7 @@ export {
     Sec2Cards,
     Sec2About,
     Sec2Ad,
+    CustomHero,
+    Testimonial,
+    ContactSection,
 }

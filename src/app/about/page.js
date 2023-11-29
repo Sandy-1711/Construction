@@ -1,16 +1,17 @@
 'use client'
-import { Footer, Navbar, Section3 } from "@/(components)";
+import { CustomHero, Footer, Navbar, Section3, Testimonial } from "@/(components)";
 import LocoScroll from "@/(utils)/LocomotiveScroll";
-import { Hero, OurTeam, Section2 } from "./(components)";
+import { OurTeam, Section2 } from "./(components)";
 
 export default function About() {
     LocoScroll(true);
     return <main data-scroll data-scroll-container>
         <Navbar />
-        <Hero />
+        <CustomHero h1={"HOME > ABOUT >"} p={"ABOUT US"} imgSrc={'/ConstructionAbout.jpeg'} />
         <Section2 />
         <Section3 />
-        <OurTeam/>
+        <OurTeam />
+        <Testimonial />
         <Footer />
     </main>
 }

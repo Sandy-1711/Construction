@@ -1,0 +1,158 @@
+.section {
+    width: 100%;
+    position: relative;
+    height: 400px;
+}
+
+.wrapper {
+    width: 1100px;
+    margin: auto;
+    height: 100%;
+    display: flex;
+}
+
+.left {
+    width: 50%;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    background: #FC5E28;
+    z-index: 0;
+}
+
+.text {
+    width: 50%;
+    height: 100%;
+    position: relative;
+    z-index: 1;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding-right: 40px;
+}
+
+.text span {
+    font-size: 14px;
+}
+
+.text h2 {
+    font-size: 38px;
+}
+
+.right {
+    width: 50%;
+    height: 100%;
+    position: absolute;
+    right: 0;
+    top: 0;
+    background: #040E26;
+    z-index: 0;
+}
+
+.carousel {
+    position: relative;
+    z-index: 1;
+    width: 50%;
+    height: 100%;
+    color: white;
+    overflow: hidden;
+}
+
+.cards {
+    transition: 1s ease-in-out;
+    width: 100%;
+    height: 100%;
+    display: flex;
+}
+
+@keyframes fadein {
+    from {
+        opacity: 0;
+        scale: 0.9;
+    }
+
+    to {
+        scale: 1;
+        opacity: 1;
+    }
+}
+
+.card {
+    animation: fadein 0.5s forwards linear;
+    transition: 1s ease-in-out;
+    flex: 1;
+    min-width: 100%;
+    height: 100%;
+    display: none;
+    justify-content: center;
+    align-items: center;
+    padding: 0 0 0 4rem;
+
+}
+
+.active {
+    display: flex;
+}
+
+.slider {
+    position: absolute;
+    bottom: 5%;
+    left: 50%;
+    transform: translate(-50%);
+    display: flex;
+    gap: 0.5rem;
+}
+
+.selector {
+    height: 15px;
+    width: 15px;
+    border-radius: 50%;
+    background: rgb(84, 84, 84);
+    transition: 0.5s ease-in-out;
+    cursor: pointer;
+}
+
+.activeSelector {
+    background: #FC5E28;
+}
+
+.card div:nth-child(1) {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    gap: 1rem;
+}
+
+.card div:nth-child(2) {
+    height: 180px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+}
+
+.card img {
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.card p {
+    color: rgba(255, 255, 255, 0.8);
+    line-height: 150%;
+    /* margin-bottom: 15px; */
+}
+
+.card h2 {
+    color: white;
+    /* margin-bottom: 10px; */
+}
+
+.card span {
+    color: #FC5E28;
+    /* margin-bottom: 10px; */
+}
