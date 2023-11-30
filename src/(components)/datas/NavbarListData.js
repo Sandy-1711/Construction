@@ -8,20 +8,20 @@ const data = [
         pathName: 'ABOUT US',
     },
     {
+        path: '/services',
+        pathName: 'SERVICES',
+    },
+    {
         path: '/process',
         pathName: 'PROCESS',
     },
     {
-        path: '/packages',
-        pathName: 'PACKAGES',
-    },
-    {
-        path:'/faqs',
+        path: '/faqs',
         pathName: 'FAQs',
     },
     {
         path: '/contact',
-        pathName: 'CONTACTS',
+        pathName: 'CONTACT',
     },
 ]
 export default data

@@ -3,7 +3,7 @@ export default function Sec2Cards(){
     return <div className={sec2css.cards}>
     <div className={sec2css.card}>
         <div className={sec2css.cardImage}>
-            <img src='/HeroBackgroundImage.jpg' />
+            <img src='/engineer.svg' />
         </div>
         <div className={sec2css.text}>
             <h2>Quality Construction</h2>
@@ -12,7 +12,7 @@ export default function Sec2Cards(){
     </div>
     <div className={sec2css.card}>
         <div className={sec2css.cardImage}>
-            <img src='/HeroBackgroundImage.jpg' />
+            <img src='/engineer2.svg' />
         </div>
         <div className={sec2css.text}>
             <h2>Quality Construction</h2>
@@ -21,7 +21,7 @@ export default function Sec2Cards(){
     </div>
     <div className={sec2css.card}>
         <div className={sec2css.cardImage}>
-            <img src='/HeroBackgroundImage.jpg' />
+            <img src='/crane.svg' />
         </div>
         <div className={sec2css.text}>
             <h2>Quality Construction</h2>

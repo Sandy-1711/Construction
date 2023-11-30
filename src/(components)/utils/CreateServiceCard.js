@@ -1,3 +1,4 @@
+import Link from 'next/link'
 import servicecss from '../Services/Services.module.css'
 export default function createServiceCard(dataitem) {
 
@@ -16,7 +17,7 @@ export default function createServiceCard(dataitem) {
             <p>{dataitem.desc}</p>
         </div>
         <div className={servicecss.button}>
-            <button>READ MORE</button>
+            <button className='inquire'>Inquire Now</button>
         </div>
     </div>
 

@@ -8,53 +8,78 @@ export default function OurTeam() {
             </div>
             <div className={teamcss.cards}>
                 <div className={teamcss.card}>
+                    <img src='/Ajay-Shah.jpg' />
                     <div className={teamcss.cardText}>
-                        <h2>Ryan Reynolds</h2>
-                        <span>Head Engineer</span>
+
+                        <h2>Ajay Shah</h2>
+                        <span>Managing Director</span>
                     </div>
                 </div>
                 <div className={teamcss.card}>
+                    <img src='/Rashmi-Shah.jpg' />
                     <div className={teamcss.cardText}>
-                        <h2>Ryan Reynolds</h2>
-                        <span>Head Engineer</span>
+
+                        <h2>Rashmi Shah</h2>
+                        <span>Director</span>
                     </div>
                 </div>
                 <div className={teamcss.card}>
+                    <img src='/Sanjay-Shah.jpg' />
                     <div className={teamcss.cardText}>
-                        <h2>Ryan Reynolds</h2>
-                        <span>Head Engineer</span>
+
+                        <h2>Sanjay Shah</h2>
+                        <span>Legal Head</span>
                     </div>
                 </div>
                 <div className={teamcss.card}>
+                    <img src='/Miraz-Khan.jpg' />
                     <div className={teamcss.cardText}>
-                        <h2>Ryan Reynolds</h2>
-                        <span>Head Engineer</span>
+
+                        <h2>Miraz Khan</h2>
+                        <span>Head Technical & Engineering</span>
                     </div>
                 </div>
                 <div className={teamcss.card}>
+                    <img src='/avatar.png' />
                     <div className={teamcss.cardText}>
-                        <h2>Ryan Reynolds</h2>
-                        <span>Head Engineer</span>
+
+                        <h2>Brajesh Roy</h2>
+                        <span>Head, Purchase & Engineering</span>
                     </div>
                 </div>
                 <div className={teamcss.card}>
+                    <img src='/avatar.png' />
                     <div className={teamcss.cardText}>
-                        <h2>Ryan Reynolds</h2>
-                        <span>Head Engineer</span>
+
+                        <h2>Nitin Jha</h2>
+                        <span>Head, Operation & Management</span>
                     </div>
                 </div>
                 <div className={teamcss.card}>
+                    <img src='/Wasim-Khan.jpg' />
                     <div className={teamcss.cardText}>
-                        <h2>Ryan Reynolds</h2>
-                        <span>Head Engineer</span>
+
+                        <h2>Wasim Khan</h2>
+                        <span>Head, Marketing & Sales</span>
                     </div>
                 </div>
                 <div className={teamcss.card}>
+                    <img src='/Sanket-Suman.jpg' />
                     <div className={teamcss.cardText}>
-                        <h2>Ryan Reynolds</h2>
-                        <span>Head Engineer</span>
+
+                        <h2>Sanket Suman</h2>
+                        <span>Head, Planing & Designing</span>
                     </div>
                 </div>
+                <div className={teamcss.card}>
+                    <img src='/avatar.png' />
+                    <div className={teamcss.cardText}>
+
+                        <h2>Roshan Sonu</h2>
+                        <span>Field Manager Marketing</span>
+                    </div>
+                </div>
+
             </div>
         </div>
     </section>

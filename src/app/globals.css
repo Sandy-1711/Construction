@@ -1,3 +1,8 @@
+:root {
+  --red: #FC5E28;
+  --back: #040E26;
+}
+
 * {
   margin: 0;
   padding: 0;

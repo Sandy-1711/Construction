@@ -35,7 +35,7 @@ export default function Testimonial() {
         <div className={testcss.wrapper}>
             <div className={testcss.text}>
                 <span>READ TESTIMONIALS</span>
-                <h2>It&apos;s always a joy to hear that the work we do has positively reviews</h2>
+                <h2>Evana Infratech, a unit of K D Groups provides all construction-related stuffs under one roof. The company takes care of all the steps of construction starting from basic architectural designs to the stage of finishing. We provide ready-to-move buildings built up of best quality construction materials at budget-friendly expenses. With Evana Infratech, you just need to look after the finances and rest the stress falls on the company.</h2>
             </div>
             <div className={testcss.carousel}>
                 <div className={testcss.cards}>
@@ -44,7 +44,7 @@ export default function Testimonial() {
                         <div>
 
                             <div>
-                                <img src='/HeroBackgroundImage.jpg' />
+                                <img src='/HeroBackgroundImage.png' />
                             </div>
                             <div>
 
@@ -58,7 +58,7 @@ export default function Testimonial() {
                         <div>
 
                             <div>
-                                <img src='/HeroBackgroundImage.jpg' />
+                                <img src='/HeroBackgroundImage.png' />
 
                             </div>
                             <div>
@@ -73,7 +73,7 @@ export default function Testimonial() {
                         <div>
 
                             <div>
-                                <img src='/ConstructionAbout.jpeg' />
+                                <img src='/ConstructionAbout.png' />
 
                             </div>
                             <div>
@@ -88,7 +88,7 @@ export default function Testimonial() {
                         <div>
 
                             <div>
-                                <img src='/HeroBackgroundImage.jpg' />
+                                <img src='/HeroBackgroundImage.png' />
 
                             </div>
                             <div>
@@ -103,7 +103,7 @@ export default function Testimonial() {
                         <div>
 
                             <div>
-                                <img src='/ConstructionAbout.jpeg' />
+                                <img src='/ConstructionAbout.png' />
 
                             </div>
                             <div>

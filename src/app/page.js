@@ -1,7 +1,7 @@
 'use client'
 import pagecss from './page.module.css'
 import LocoScroll from '../(utils)/LocomotiveScroll'
-import { Copyright, Footer, Hero, LatestProjects, Navbar, Section2, Section3, Services, Testimonial } from '@/(components)';
+import { Accordion, Copyright, Footer, Hero, LatestProjects, Navbar, Section2, Section3, Services, Testimonial } from '@/(components)';
 export default function Page() {
   LocoScroll(true);
   return (<main className={pagecss.main} data-scroll data-scroll-container>
@@ -13,7 +13,8 @@ export default function Page() {
       <Services />
       <Section3 />
       <LatestProjects />
-      <Testimonial/>
+      <Testimonial />
+      <Accordion />
       <Footer />
       <Copyright />
     </div>

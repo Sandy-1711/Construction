@@ -14,6 +14,8 @@ import CustomHero from "./CustomHero/CustomHero";
 import Testimonial from "./Testimonial/Testimonial";
 import ContactSection from "./ContactSection/ContactSection";
 import FAQSection from "./FAQSection/FAQSection";
+import InquiryForm from "./InquiryForm/InquiryForm";
+import Accordion from "./Accordian/Accordian";
 export {
     Navbar,
     Hero,
@@ -31,4 +33,6 @@ export {
     Testimonial,
     ContactSection,
     FAQSection,
+    InquiryForm,
+    Accordion,
 }

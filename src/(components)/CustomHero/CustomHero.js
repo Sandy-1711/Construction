@@ -19,6 +19,6 @@ export default function CustomHero({ p, h1, imgSrc, ...props }) {
                 <h1>{h1}</h1>
             </div>
         </div>
-        <HeroImage imgsrc={imgSrc || '/ConstructionAbout.jpeg'} />
+        <HeroImage imgsrc={imgSrc || '/ConstructionAbout.png'} />
     </section>)
 }

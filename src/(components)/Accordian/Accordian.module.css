@@ -1,0 +1,96 @@
+.section {
+    width: 100%;
+    height: max-content;
+    padding: 2rem 0;
+}
+
+.wrapper {
+    width: 1100px;
+    margin: auto;
+    height: max-content;
+}
+
+.accordian {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.accordian h2 {
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+
+.card {
+    position: relative;
+    /* height: max-content; */
+    overflow: hidden;
+    width: 100%;
+    /* padding: 10px; */
+    border-bottom: 1px solid grey;
+    border-left: 1px solid grey;
+    border-right: 1px solid grey;
+    height: max-content;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 10px;
+}
+
+.arrow {
+    height: 40px;
+    width: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card p {
+    font-size: 20px;
+}
+
+.ps {
+    width: calc(100% - 40px);
+    display: flex;
+    flex-direction: column;
+
+}
+
+.card p:nth-of-type(1) {
+    min-height: 40px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.card p:nth-of-type(2) {
+    display: none;
+}
+.active{
+    display: block !important;
+}
+
+
+
+.card:nth-of-type(1) {
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    border-top: 1px solid grey;
+}
+
+.card:nth-last-of-type(1) {
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+.wrapper button {
+    padding: 15px 30px;
+    font-size: 18px;
+    color: white;
+    border: none;
+    background: var(--red);
+    border-radius: 5px;
+    margin-top: 10px;
+    cursor: pointer;
+}

@@ -8,7 +8,7 @@ export default function LatestProjects() {
             </div>
             <div className={latestcss.projects}>
                 <div className={latestcss.project}>
-                    <img src='/HeroBackgroundImage.jpg' />
+                    <img src='/HeroBackgroundImage.png' />
                     <div className={latestcss.projectInfo}>
                         <span>Building</span>
                         <h2>BUILDING A CONDOINIUM</h2>
@@ -16,7 +16,7 @@ export default function LatestProjects() {
                     </div>
                 </div>
                 <div className={latestcss.project}>
-                    <img src='/HeroBackgroundImage.jpg' />
+                    <img src='/HeroBackgroundImage.png' />
                     <div className={latestcss.projectInfo}>
                         <span>Building</span>
                         <h2>BUILDING A CONDOINIUM</h2>
@@ -24,7 +24,7 @@ export default function LatestProjects() {
                     </div>
                 </div>
                 <div className={latestcss.project}>
-                    <img src='/HeroBackgroundImage.jpg' />
+                    <img src='/HeroBackgroundImage.png' />
                     <div className={latestcss.projectInfo}>
                         <span>Building</span>
                         <h2>BUILDING A CONDOINIUM</h2>
@@ -32,7 +32,7 @@ export default function LatestProjects() {
                     </div>
                 </div>
                 <div className={latestcss.project}>
-                    <img src='/HeroBackgroundImage.jpg' />
+                    <img src='/HeroBackgroundImage.png' />
                     <div className={latestcss.projectInfo}>
                         <span>Building</span>
                         <h2>BUILDING A CONDOINIUM</h2>
@@ -40,7 +40,7 @@ export default function LatestProjects() {
                     </div>
                 </div>
                 <div className={latestcss.project}>
-                    <img src='/HeroBackgroundImage.jpg' />
+                    <img src='/HeroBackgroundImage.png' />
                     <div className={latestcss.projectInfo}>
                         <span>Building</span>
                         <h2>BUILDING A CONDOINIUM</h2>
@@ -48,7 +48,7 @@ export default function LatestProjects() {
                     </div>
                 </div>
                 <div className={latestcss.project}>
-                    <img src='/HeroBackgroundImage.jpg' />
+                    <img src='/HeroBackgroundImage.png' />
                     <div className={latestcss.projectInfo}>
                         <span>Building</span>
                         <h2>BUILDING A CONDOINIUM</h2>
