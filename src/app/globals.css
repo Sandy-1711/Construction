@@ -9,6 +9,11 @@
   box-sizing: border-box;
 }
 
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: 10vh;
+}
+
 body {
   height: max-content;
   width: 100dvw;

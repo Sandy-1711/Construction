@@ -16,6 +16,7 @@ import ContactSection from "./ContactSection/ContactSection";
 import FAQSection from "./FAQSection/FAQSection";
 import InquiryForm from "./InquiryForm/InquiryForm";
 import Accordion from "./Accordian/Accordian";
+import Process from "./Process/Process";
 export {
     Navbar,
     Hero,
@@ -35,4 +36,5 @@ export {
     FAQSection,
     InquiryForm,
     Accordion,
+    Process,
 }

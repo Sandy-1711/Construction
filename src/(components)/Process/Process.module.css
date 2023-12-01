@@ -1,0 +1,89 @@
+.section {
+    width: 100%;
+    height: max-content;
+    padding: 2.5rem 0;
+}
+
+.wrapper {
+    width: 1100px;
+    margin: auto;
+    height: max-content;
+    display: flex;
+    justify-content: flex-start;
+    position: relative;
+}
+
+.processnav {
+    width: 30%;
+}
+
+.processnav a {
+    text-decoration: none;
+    color: black;
+}
+
+
+.navItems>h2 {
+    font-size: 18px;
+    font-weight: 600;
+    padding: 10px 15px;
+    /* padding-right: 0; */
+    color: #3a3f6c;
+    color: black;
+    background: rgba(175, 175, 175, 0.8);
+
+}
+
+.navSubItems {
+    transform: translate(0px);
+}
+
+.navSubItems a {
+    color: black;
+}
+
+.navitem {
+    cursor: pointer;
+    /* padding-right: 0; */
+    margin: 1px;
+}
+
+.navitem h2 {
+    background: rgba(225, 225, 225, 0.8);
+    padding: 10px 15px;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.navitem:hover h2 {
+    background: rgba(225, 225, 225, 1);
+}
+
+.info {
+    width: 70%;
+    height: 100vh;
+    overflow-y: scroll;
+    padding-left: 50px;
+}
+
+.info ul li {
+    list-style: none;
+}
+
+.info h2 {
+    font-size: 28px;
+    margin: 10px 0;
+}
+
+.info ul li h2 {
+    font-size: 18px;
+    padding: 10px 10px 10px 10px;
+    background: rgba(175, 175, 175, 0.8);
+}
+
+.info ul li p {
+    font-size: 16px;
+    line-height: 22px;
+    margin: 10px 10px;
+    color: rgba(43, 43, 43, 0.8);
+}
