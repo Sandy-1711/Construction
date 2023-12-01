@@ -7,7 +7,7 @@ export default function About() {
     LocoScroll(true);
     return <main data-scroll data-scroll-container>
         <Navbar />
-        <CustomHero h1={"HOME > ABOUT >"} p={"ABOUT US"} imgSrc={'/ConstructionAbout.png'} />
+        <CustomHero h1={" > ABOUT >"} p={"ABOUT US"} imgSrc={'/ConstructionAbout.png'} />
         <Section2 />
         <Section3 />
         <OurTeam />

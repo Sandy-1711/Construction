@@ -1,6 +1,7 @@
 // import HeroImage from '../HeroImage/HeroImage'
 import { HeroImage } from '@/(components)'
 import herocss from './Hero.module.css'
+import Link from 'next/link'
 export default function CustomHero({ p, h1, imgSrc, ...props }) {
     const data = {
         p: "HERO > ABOUT US >",
@@ -16,7 +17,7 @@ export default function CustomHero({ p, h1, imgSrc, ...props }) {
                     <button>REQUEST A QUOTE</button>
                 </div> */}
                 <p>{p}</p>
-                <h1>{h1}</h1>
+                <h1><Link href='/'>HERO</Link>{h1}</h1>
             </div>
         </div>
         <HeroImage imgsrc={imgSrc || '/ConstructionAbout.png'} />

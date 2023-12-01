@@ -45,7 +45,11 @@
     font-weight: 700;
     width: 100%;
 }
-
+.heroText h1 a{
+    text-decoration: none;
+    color: white;
+    cursor: pointer;
+}
 .heroText p {
     margin-top: 10px;
     margin-bottom: 10px;

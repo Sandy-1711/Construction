@@ -6,7 +6,7 @@ export default function FAQS() {
     LocoScroll(true);
     return <main data-scroll data-scroll-container>
         <Navbar />
-        <CustomHero h1={'HERO > FAQs >'} p={'FAQs'} />
+        <CustomHero h1={' > FAQs >'} p={'FAQs'} />
         <FAQSection/>
         <Footer/>
     </main>

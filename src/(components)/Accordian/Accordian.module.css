@@ -36,6 +36,7 @@
     justify-content: center;
     align-items: flex-start;
     padding: 10px;
+    cursor: pointer;
 }
 
 .arrow {
@@ -44,6 +45,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    rotate: -90deg;
 }
 
 .card p {
@@ -57,17 +59,21 @@
 
 }
 
-.card p:nth-of-type(1) {
+.ps p:nth-of-type(1) {
     min-height: 40px;
     display: flex;
     justify-content: flex-start;
     align-items: center;
+    font-size: 20px;
 }
 
-.card p:nth-of-type(2) {
+.ps p:nth-of-type(2) {
     display: none;
+    font-size: 16px;
+    color: rgba(0, 0, 0, 0.8);
 }
-.active{
+
+.active {
     display: block !important;
 }
 

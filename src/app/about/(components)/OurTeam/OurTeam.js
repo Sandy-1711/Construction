@@ -40,7 +40,7 @@ export default function OurTeam() {
                     </div>
                 </div>
                 <div className={teamcss.card}>
-                    <img src='/avatar.png' />
+                    <img src='/Brajesh-Roy.jpg' />
                     <div className={teamcss.cardText}>
 
                         <h2>Brajesh Roy</h2>
@@ -48,7 +48,7 @@ export default function OurTeam() {
                     </div>
                 </div>
                 <div className={teamcss.card}>
-                    <img src='/avatar.png' />
+                    <img src='/Nitin-Jha.jpg' />
                     <div className={teamcss.cardText}>
 
                         <h2>Nitin Jha</h2>
@@ -56,10 +56,10 @@ export default function OurTeam() {
                     </div>
                 </div>
                 <div className={teamcss.card}>
-                    <img src='/Wasim-Khan.jpg' />
+                    <img src='/Wasim-Ansari.jpg' />
                     <div className={teamcss.cardText}>
 
-                        <h2>Wasim Khan</h2>
+                        <h2>Wasim Ansari</h2>
                         <span>Head, Marketing & Sales</span>
                     </div>
                 </div>
@@ -72,7 +72,7 @@ export default function OurTeam() {
                     </div>
                 </div>
                 <div className={teamcss.card}>
-                    <img src='/avatar.png' />
+                    <img src='/Roshan-Sonu.jpg' />
                     <div className={teamcss.cardText}>
 
                         <h2>Roshan Sonu</h2>

@@ -5,7 +5,7 @@ export default function Contact() {
     LocoScroll(true)
     return <main data-scroll data-scroll-container>
         <Navbar />
-        <CustomHero p={'HOME > CONTACT US >'} h1={'CONTACT US'} />
+        <CustomHero p={'CONTACT US >'} h1={' > CONTACT US >'} />
         <ContactSection/>
         <Footer/>
     </main>
