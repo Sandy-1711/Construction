@@ -36,15 +36,31 @@
     left: 0;
     top: 50%;
     z-index: 1;
+    /* opacity: 1; */
     transform: translate(0, -50%);
+    animation: fadeIn 0.5s forwards linear;
 }
-.heroText h1{
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translate(0, -40%);
+    }
+
+    to {
+        opacity: 1;
+        transform: translate(0, -50%);
+    }
+}
+
+.heroText h1 {
     font-size: 60px;
     color: white;
     font-weight: 900;
     width: 50%;
 }
-.heroText p{
+
+.heroText p {
     margin-top: 10px;
     margin-bottom: 10px;
     color: rgba(255, 255, 255, 0.8);
@@ -52,21 +68,24 @@
     font-size: 17px;
     line-height: 1.5rem;
 }
-.heroText button{
+
+.heroText button {
     border: none;
     outline: none;
     font-weight: 600;
     /* color: white; */
-    padding:10px 10px;
+    padding: 10px 10px;
     border-radius: 5px;
     cursor: pointer;
     margin-right: 1rem;
 }
-.heroText button:nth-child(1){
+
+.heroText button:nth-child(1) {
     color: white;
     background: #FC5E28;
 }
-.heroText button:nth-child(2){
+
+.heroText button:nth-child(2) {
     color: black;
     background: white;
 }

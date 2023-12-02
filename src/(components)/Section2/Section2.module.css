@@ -26,6 +26,8 @@
     align-items: flex-start;
     padding: 50px 0;
     gap: 20px;
+    transform: translateX(-50px);
+    opacity: 0;
 }
 
 .card:nth-child(2) {
@@ -47,7 +49,7 @@
     margin-top: 10px;
     line-height: 24px;
     color: white;
-    font-weight: 200;
+    font-weight: 300;
 }
 
 .cardImage {
@@ -60,9 +62,11 @@
     align-items: center;
     background: #FC5E28;
 }
-.card:nth-of-type(2) .cardImage{
+
+.card:nth-of-type(2) .cardImage {
     background: #040e26;
 }
+
 .cardImage img {
     height: 60%;
     width: 60%;
@@ -94,6 +98,8 @@
     width: 50%;
     padding: 60px;
     padding-right: 0;
+    transform: translate(0,20px);
+    opacity: 0;
 }
 
 .aboutText h2 {

@@ -1,7 +1,25 @@
 'use client'
-import { useEffect } from 'react'
+import { useEffect, useLayoutEffect } from 'react'
 import testcss from './Testimonial.module.css'
+import gsap from 'gsap'
+import { ScrollTrigger } from 'gsap/all'
 export default function Testimonial() {
+
+    useLayoutEffect(function () {
+
+        gsap.registerPlugin(ScrollTrigger)
+        gsap.to(`#sec`, {
+            opacity: 1,
+            y: 0,
+            scrollTrigger: {
+                scroller: 'body',
+                trigger: `#sec`,
+                start: 'top 60%',
+            }
+        })
+    })
+
+
     useEffect(function () {
         var cardArray = document.querySelectorAll(`.${testcss.card}`);
         var active = document.querySelector(`.${testcss.active}`);
@@ -29,7 +47,7 @@ export default function Testimonial() {
         //     })
         // })
     })
-    return (<section className={testcss.section}>
+    return (<section id='sec' className={testcss.section}>
         <div className={testcss.left}></div>
         <div className={testcss.right}></div>
         <div className={testcss.wrapper}>

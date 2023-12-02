@@ -1,3 +1,4 @@
+'use client'
 import Sec2About from '../Sec2About/Sec2About'
 import Sec2Ad from '../Sec2Ad/Sec2Ad'
 import Sec2Cards from '../Sec2Cards/Sec2cards'

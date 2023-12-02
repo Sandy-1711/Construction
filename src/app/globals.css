@@ -9,10 +9,10 @@
   box-sizing: border-box;
 }
 
-html {
+/* html {
   scroll-behavior: smooth;
   scroll-padding-top: 10vh;
-}
+} */
 
 body {
   height: max-content;

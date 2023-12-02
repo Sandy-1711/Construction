@@ -18,6 +18,8 @@
 
 .text {
     text-align: center;
+    transform: translate(0,20px);
+    opacity: 0;
 }
 
 .text p {
@@ -43,6 +45,8 @@
     width: 100%;
     margin: 40px;
     position: relative;
+    transform: translate(0,20px);
+    opacity: 0;
 }
 
 .project img {

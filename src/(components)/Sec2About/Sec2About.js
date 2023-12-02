@@ -1,5 +1,22 @@
+'use client'
+import { useLayoutEffect } from 'react'
 import sec2css from '../Section2/Section2.module.css'
+import gsap from 'gsap'
+import { ScrollTrigger } from 'gsap/all'
 export default function Sec2About() {
+    useLayoutEffect(function () {
+        gsap.registerPlugin(ScrollTrigger)
+        gsap.to(`.${sec2css.aboutText}`, {
+            y: 0,
+            opacity: 1,
+            scrollTrigger: {
+                trigger: `.${sec2css.about}`,
+                scroller: 'body',
+                start: 'top 60%',
+            }
+        })
+    })
+
     return <div className={sec2css.about}>
         <div className={sec2css.aboutImage}>
             <img src='/about.png' />

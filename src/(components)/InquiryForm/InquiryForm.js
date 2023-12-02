@@ -1,10 +1,18 @@
 'use client'
-import { useEffect, useState } from 'react'
+import { useEffect, useLayoutEffect, useState } from 'react'
 import inqcss from './Inquery.module.css'
 import { usePathname } from 'next/navigation';
+import gsap from 'gsap';
 export default function InquiryForm() {
     const path = usePathname();
     const [open, setOpen] = useState(false);
+    useLayoutEffect(function(){
+        gsap.to(`.${inqcss.form}`,{
+            opacity:1,
+            y:0,
+            
+        })
+    })
     useEffect(function () {
         const inquireButtons = document.querySelectorAll('.inquire');
         inquireButtons.forEach(function (button) {

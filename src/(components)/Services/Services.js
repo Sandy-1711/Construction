@@ -1,8 +1,35 @@
+'use client'
+import { useLayoutEffect } from 'react'
 import data from '../datas/ServiceListHome'
 import createServiceCard from '../utils/CreateServiceCard'
 import servicecss from './Services.module.css'
+import gsap from 'gsap'
+import { ScrollTrigger } from 'gsap/all'
 export default function Services({ mappingdata, ...props }) {
 
+    useLayoutEffect(function () {
+        gsap.registerPlugin(ScrollTrigger)
+        gsap.to(`.${servicecss.text}`, {
+            opacity: 1,
+            y: 0,
+            scrollTrigger: {
+                scroller: 'body',
+                trigger: `.${servicecss.serviceSection}`,
+                start: 'top 60%',
+            }
+        })
+        gsap.to(`.${servicecss.service}`, {
+            opacity: 1,
+            stagger:0.05,
+            y: 0,
+            delay: 0.25,
+            scrollTrigger: {
+                scroller: 'body',
+                trigger: `.${servicecss.serviceSection}`,
+                start: 'top 60%',
+            }
+        })
+    })
     return (<section className={servicecss.serviceSection}>
         <div className={servicecss.serviceBackground}></div>
         <div className={servicecss.serviceWrapper}>

@@ -37,6 +37,8 @@
     align-items: flex-start;
     padding: 10px;
     cursor: pointer;
+    transform: translate(0,20px);
+    opacity: 0;
 }
 
 .arrow {
@@ -50,6 +52,7 @@
 
 .card p {
     font-size: 20px;
+    
 }
 
 .ps {

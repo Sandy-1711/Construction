@@ -1,5 +1,32 @@
+'use client'
+import { useLayoutEffect } from 'react'
 import latestcss from './LatestProject.module.css'
+import gsap from 'gsap'
+import { ScrollTrigger } from 'gsap/all'
 export default function LatestProjects() {
+    useLayoutEffect(function () {
+        gsap.registerPlugin(ScrollTrigger)
+        gsap.to(`.${latestcss.text}`, {
+            opacity: 1,
+            y: 0,
+            scrollTrigger: {
+                scroller: 'body',
+                trigger: `.${latestcss.latestProjectSection}`,
+                start: 'top 60%',
+            }
+        })
+        gsap.to(`.${latestcss.project}`, {
+            opacity: 1,
+            stagger: 0.05,
+            y: 0,
+            delay: 0.25,
+            scrollTrigger: {
+                scroller: 'body',
+                trigger: `.${latestcss.latestProjectSection}`,
+                start: 'top 60%',
+            }
+        })
+    })
     return <div className={latestcss.latestProjectSection}>
         <div className={latestcss.latestProjectWrapper}>
             <div className={latestcss.text}>

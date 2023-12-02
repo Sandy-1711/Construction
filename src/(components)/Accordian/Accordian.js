@@ -1,7 +1,9 @@
 'use client'
 import Link from 'next/link'
 import acss from './Accordian.module.css'
-import { useEffect } from 'react'
+import { useEffect, useLayoutEffect } from 'react'
+import gsap from 'gsap'
+import { ScrollTrigger } from 'gsap/all'
 export default function Accordion() {
     // useEffect(function () {
     //     var cards = document.querySelectorAll(`.${acss.card}`);
@@ -15,6 +17,19 @@ export default function Accordion() {
     //     })
 
     // }, [])
+    useLayoutEffect(function () {
+        gsap.registerPlugin(ScrollTrigger);
+        gsap.to(`.${acss.card}`, {
+            stagger: 0.03,
+            opacity: 1,
+            y: 0,
+            scrollTrigger: {
+                scroller: 'body',
+                trigger: `.${acss.section}`,
+                start: 'top 60%'
+            }
+        })
+    })
     function toggleAccordion(index) {
         var content = document.getElementById("content" + index);
         // console.log(content);

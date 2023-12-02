@@ -12,6 +12,8 @@
 .wrapper h1 {
     font-size: 60px;
     font-weight: 500;
+    opacity: 0;
+    transform: translate(0,20px);
 }
 
 .listContainer {
@@ -21,6 +23,8 @@
 .listContainer ol li {
     list-style: none;
     padding: 20px 0;
+    transform: translate(0,20px);
+    opacity: 0;
 }
 
 .listContainer ol li h2 {

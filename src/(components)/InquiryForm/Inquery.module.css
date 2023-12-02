@@ -26,6 +26,8 @@
     background: white;
     padding: 4rem 2rem;
     border-radius: 10px;
+    transform: translate(0,20px);
+    opacity: 0;
 }
 
 .form input {
