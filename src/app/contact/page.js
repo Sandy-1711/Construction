@@ -1,5 +1,5 @@
 'use client'
-import { ContactSection, CustomHero, Footer, Navbar } from "@/(components)";
+import { ContactSection, Copyright, CustomHero, Footer, Navbar } from "@/(components)";
 import LocoScroll from "@/(utils)/LocomotiveScroll";
 export default function Contact() {
     LocoScroll(true)
@@ -8,5 +8,6 @@ export default function Contact() {
         <CustomHero p={'CONTACT US >'} h1={' > CONTACT US >'} />
         <ContactSection/>
         <Footer/>
+        <Copyright/>
     </main>
 }

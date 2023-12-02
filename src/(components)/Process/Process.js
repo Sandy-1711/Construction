@@ -106,6 +106,10 @@ export default function Process() {
                         <h2>3. Foundation Work</h2>
                         <p>The building is supported on the foundation is the lowermost part of the building that is in contact with the soil. A building is a load transferred from the superstructure to the soil and needs to be extremely strong to handle the load. After the PCC work foundation reinforcement work is started. The foundation&apos;s bottom level must check before concreting it. The remaining space between the foundation is filled with earth.</p>
                     </li>
+                    <li id='B4'>
+                        <h2>4. Plinth Beam</h2>
+                        <p>Plith beam is that structure above which the column lies. In simple words, it is interface between foundation and super structure.</p>
+                    </li>
                     <li id='B5'>
                         <h2>5. Superstructure - Column</h2>
                         <p>The superstructure is the portion above the plinth level of the building. The main component of perstructure is a column and a beam.                            The columns are built up to slab level and the frame for further construction is prepared.

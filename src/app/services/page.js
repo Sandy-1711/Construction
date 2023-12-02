@@ -1,5 +1,5 @@
 'use client'
-import { CustomHero, Footer, Navbar, Services } from "@/(components)"
+import { Copyright, CustomHero, Footer, Navbar, Services } from "@/(components)"
 import data from "@/(components)/datas/ServicesTabData"
 import LocoScroll from "@/(utils)/LocomotiveScroll"
 
@@ -10,5 +10,6 @@ export default function Page() {
         <CustomHero h1={" > SERVICES >"} p={"SERVICES"} imgSrc={"/ConstructionAbout.png"} />
         <Services mappingdata={data} />
         <Footer />
+        <Copyright />
     </main>
 }

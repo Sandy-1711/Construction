@@ -1,5 +1,5 @@
 'use client'
-import { CustomHero, Footer, Navbar, Section3, Testimonial } from "@/(components)";
+import { Copyright, CustomHero, Footer, Navbar, Section3, Testimonial } from "@/(components)";
 import LocoScroll from "@/(utils)/LocomotiveScroll";
 import { OurTeam, Section2 } from "./(components)";
 
@@ -13,5 +13,6 @@ export default function About() {
         <OurTeam />
         <Testimonial />
         <Footer />
+        <Copyright/>
     </main>
 }
