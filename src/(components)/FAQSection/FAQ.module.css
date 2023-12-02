@@ -13,7 +13,7 @@
     font-size: 60px;
     font-weight: 500;
     opacity: 0;
-    transform: translate(0,20px);
+    transform: translate(0, 20px);
 }
 
 .listContainer {
@@ -23,7 +23,7 @@
 .listContainer ol li {
     list-style: none;
     padding: 20px 0;
-    transform: translate(0,20px);
+    transform: translate(0, 20px);
     opacity: 0;
 }
 
@@ -31,7 +31,20 @@
     font-size: 20px;
     font-weight: 500;
 }
-.listContainer ol li p{
+
+.listContainer ol li p {
     font-size: 14px;
     margin-top: 10px;
+}
+
+@media screen and (width<1100px) {
+    .wrapper {
+        width: 990px;
+    }
+}
+
+@media screen and (width<990px) {
+    .wrapper {
+        width: 800px;
+    }
 }

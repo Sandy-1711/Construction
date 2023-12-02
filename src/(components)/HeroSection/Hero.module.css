@@ -89,3 +89,18 @@
     color: black;
     background: white;
 }
+
+@media screen and (width<1100px) {
+    .heroWrapper {
+        width: 990px;
+    }
+    .heroText h1{
+        font-size: 40px;
+    }
+}
+
+@media screen and (width<990px) {
+    .heroWrapper {
+        width: 800px;
+    }
+}

@@ -15,6 +15,7 @@
     transform: translate(0, 25%);
 }
 
+
 .accordion {
     position: absolute;
     width: 100%;
@@ -178,4 +179,31 @@
     outline: none;
     margin-right: 10px;
     cursor: pointer;
+}
+
+@media screen and (width<1100px) {
+    .upper {
+        width: 990px;
+    }
+
+    .accordionWrapper {
+        width: 990px;
+    }
+
+    .navbarInner {
+        width: 990px;
+    }
+}
+@media screen and (width<990px) {
+    .upper {
+        width: 800px;
+    }
+
+    .accordionWrapper {
+        width: 800px;
+    }
+
+    .navbarInner {
+        width: 800px;
+    }
 }

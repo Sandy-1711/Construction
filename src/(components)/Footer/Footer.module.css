@@ -51,3 +51,15 @@
     color: grey;
     line-height: 1.8rem;
 }
+
+@media screen and (width<1100px) {
+    .footerWrapper {
+        width: 990px;
+    }
+}
+
+@media screen and (width<990px) {
+    .footerWrapper {
+        width: 800px;
+    }
+}
