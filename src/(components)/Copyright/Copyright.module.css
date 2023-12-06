@@ -50,3 +50,26 @@
         width: 800px;
     }
 }
+
+@media screen and (width<800px) {
+    .wrapper {
+        width: 100%;
+    }
+
+    .wrapper p {
+        width: 100%;
+        transform: skew(0) translate(0);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+
+    }
+
+    .copyLeft {
+        width: 95%;
+        left: 50%;
+        right: unset;
+        transform: translate(-50%);
+    }
+}

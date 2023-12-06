@@ -7,20 +7,21 @@
 
 .upper {
     width: 1100px;
-    height: 120px;
+    height: 50px;
     margin: 0rem auto;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    transform: translate(0, 25%);
+    transform: translate(0, 22.5%);
 }
 
 
 .accordion {
-    position: absolute;
+    /* position: absolute; */
     width: 100%;
     background: #040E26;
     padding: 0.3rem 0;
+    /* display: none */
     /* left: 50%; */
     /* transform: translate(-50%); */
 }
@@ -181,29 +182,161 @@
     cursor: pointer;
 }
 
+.navbarMobile {
+    display: none;
+}
+
+.navMobileWrapper {
+    /* padding: 1rem 0; */
+    width: 100%;
+    /* padding-left: 10%; */
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.navMobileWrapper ul {
+    display: flex;
+    flex-direction: column;
+}
+
+.navMobileWrapper ul li {
+    list-style: none;
+    font-size: 14px;
+    font-weight: 600;
+    color: white;
+    padding: 0.8rem 0;
+    padding-left: 10%;
+}
+
+.navMobileWrapper ul a {
+    text-decoration: none;
+}
+
+.menu {
+    display: flex;
+    gap: 0.5rem;
+    justify-content: flex-start;
+    align-items: center;
+    padding-left: 10%;
+    cursor: pointer;
+
+    /* padding: 0.15rem 0; */
+}
+
+.menu h2 {
+    color: white;
+    font-size: 14px;
+    font-weight: 600;
+    padding: 0.8rem 0;
+
+}
+
+.icon {
+    width: 25px;
+    height: 12px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.links {
+    transition: 0.2s ease-in-out;
+}
+
+.icon span {
+    border-radius: 2px;
+    height: 2px;
+    width: 100%;
+    background: white;
+}
+
+.button {
+    padding: 0.8rem;
+    padding-left: 10%;
+}
+
+.button button {
+    padding: 7px;
+    border-radius: 2.5px;
+    font-size: 12px;
+    font-weight: 800;
+    background: #1E273C;
+    color: white;
+    border: none;
+}
+
+
 @media screen and (width<1100px) {
     .upper {
-        width: 990px;
+        width: 900px;
     }
 
     .accordionWrapper {
-        width: 990px;
+        width: 900px;
     }
 
     .navbarInner {
-        width: 990px;
+        width: 900px;
     }
 }
-@media screen and (width<990px) {
+
+@media screen and (width<900px) {
     .upper {
-        width: 800px;
+        width: 90%;
+        transform: translate(0);
     }
 
     .accordionWrapper {
-        width: 800px;
+        width: 90%;
     }
 
     .navbarInner {
-        width: 800px;
+        width: 100%;
+        display: none;
     }
+
+    .navbarMobile {
+        width: 100%;
+        background: var(--back);
+        display: block;
+    }
+
+}
+
+@media screen and (width<800px) {
+    .accordion {
+        position: relative;
+    }
+
+    .upper {
+        flex-direction: column;
+        height: max-content;
+        transform: translate(0);
+        justify-content: center;
+        align-items: flex-start;
+        padding: 20px 0;
+        gap: 20px;
+        width: max-content;
+    }
+
+    .accordionWrapper {
+        flex-direction: column;
+        width: 90%;
+        padding: 0.5rem 0;
+        gap: 0.5rem;
+    }
+
+    .acwu {
+        flex-direction: column;
+        gap: 1rem;
+    }
+
+    .accordionWrapper button {
+        width: 85vw;
+        border-radius: 40px;
+    }
+
 }

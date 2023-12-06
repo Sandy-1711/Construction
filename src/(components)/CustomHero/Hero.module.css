@@ -81,7 +81,19 @@
 }
 
 @media screen and (width<990px) {
+    .heroBackground {
+        width: 100%;
+        height: auto;
+        aspect-ratio: 16/9;
+    }
+
     .heroWrapper {
         width: 800px;
+    }
+}
+
+@media screen and (width<800px) {
+    .heroWrapper {
+        width: 95%;
     }
 }

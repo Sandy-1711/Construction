@@ -103,4 +103,21 @@
     .heroWrapper {
         width: 800px;
     }
+    
+
+}
+@media screen and (width<800px) {
+    .heroWrapper{
+        width: 100%;
+    }
+    .heroText{
+        left: 10px;
+    }
+    .heroText h1{
+        font-size: 30px;
+    }
+
+}
+@media screen and (width<480px) {
+    
 }

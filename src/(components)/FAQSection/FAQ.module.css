@@ -47,4 +47,18 @@
     .wrapper {
         width: 800px;
     }
+    .wrapper h1{
+        font-size: 5dvw;
+    }
+    .listContainer{
+        margin: 0.5rem 0;
+    }
+}
+@media screen and (width<800px) {
+    .wrapper{
+        width: 95%;
+    }
+    .wrapper h1{
+        font-size: 7dvw;
+    }
 }

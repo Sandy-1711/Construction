@@ -12,6 +12,7 @@
     color: white;
     justify-content: space-between;
     align-items: flex-start;
+    flex-wrap: wrap;
 }
 
 .footerList {
@@ -61,5 +62,28 @@
 @media screen and (width<990px) {
     .footerWrapper {
         width: 800px;
+    }
+    .footerList{
+        width: 50%;
+        padding: 15px;
+    }
+}
+
+@media screen and (width<800px) {
+    .footerWrapper {
+        width: 100%;
+    }
+    .footerList{
+        width: 95%;
+        margin: auto;
+    }
+    
+    .footerList ul li{
+        width: max-content;
+    }
+    .footerList p{
+        width: 100%;
+        line-height: normal;
+        margin: 20px 0;
     }
 }

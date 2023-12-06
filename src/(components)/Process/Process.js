@@ -13,6 +13,7 @@ export default function Process() {
     })
     return <section className={processcss.section}>
         <div className={processcss.wrapper}>
+            <Link href={'/process'}><div className={processcss.scrollToTopButton}></div></Link>
             <div className={processcss.processnav}>
                 <div className={processcss.navItems}>
                     <h2>Pre-Construction Phase</h2>

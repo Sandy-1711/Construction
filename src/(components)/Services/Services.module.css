@@ -155,3 +155,34 @@
         width: 800px;
     }
 }
+
+@media screen and (width<800px) {
+    .serviceWrapper {
+        width: 80%;
+        gap: 0px;
+    }
+
+    .services {
+        width: 100%;
+        grid-template-columns: repeat(1, 1fr);
+        gap: 0px;
+    }
+
+    .service {
+        width: 100%;
+    }
+
+    .text p {
+        margin-bottom: 5px;
+    }
+}
+
+@media screen and (width<480px) {
+    .serviceWrapper {
+        width: 100%;
+    }
+
+    .services {
+        width: 95%;
+    }
+}

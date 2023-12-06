@@ -112,3 +112,27 @@
         width: 800px;
     }
 }
+@media screen and (width<800px) {
+    .latestProjectWrapper{
+        width: 100%;
+        gap: 20px;
+    }
+    .text p{
+        margin: 0;
+    }
+    .projects{
+        width: 80%;
+        grid-template-columns: repeat(1,1fr);
+        gap: 80px;
+    }
+    .project{
+        height: 300px;
+        width: 100%;
+        margin: 0;
+    }
+}
+@media screen and (width<480px) {
+    .projects{
+        width: 95%;
+    }
+}

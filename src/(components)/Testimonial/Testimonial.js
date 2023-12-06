@@ -64,7 +64,6 @@ export default function Testimonial() {
                             <iframe width="560" height="315" src="https://www.youtube.com/embed/y5XoL2aTgVY?si=ujBRuvPcwlsLZrwt" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
                         </div>
                         <div>
-
                             <p>Far far away behind the word mountains far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean</p>
                             <h2>Jeff Freshman</h2>
                             <span>GUESTS</span>
@@ -76,7 +75,6 @@ export default function Testimonial() {
                             <iframe width="560" height="315" src="https://www.youtube.com/embed/y5XoL2aTgVY?si=ujBRuvPcwlsLZrwt" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
                         </div>
                         <div>
-
                             <p>Far far away behind the word mountains far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean</p>
                             <h2>Jeff Freshman</h2>
                             <span>GUESTS</span>
@@ -88,7 +86,6 @@ export default function Testimonial() {
                             <iframe width="560" height="315" src="https://www.youtube.com/embed/y5XoL2aTgVY?si=ujBRuvPcwlsLZrwt" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
                         </div>
                         <div>
-
                             <p>Far far away behind the word mountains far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean</p>
                             <h2>Jeff Freshman</h2>
                             <span>GUESTS</span>
@@ -100,7 +97,6 @@ export default function Testimonial() {
                             <iframe width="560" height="315" src="https://www.youtube.com/embed/y5XoL2aTgVY?si=ujBRuvPcwlsLZrwt" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
                         </div>
                         <div>
-
                             <p>Far far away behind the word mountains far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean</p>
                             <h2>Jeff Freshman</h2>
                             <span>GUESTS</span>
@@ -112,7 +108,6 @@ export default function Testimonial() {
                             <iframe width="560" height="315" src="https://www.youtube.com/embed/y5XoL2aTgVY?si=ujBRuvPcwlsLZrwt" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
                         </div>
                         <div>
-
                             <p>Far far away behind the word mountains far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean</p>
                             <h2>Jeff Freshman</h2>
                             <span>GUESTS</span>

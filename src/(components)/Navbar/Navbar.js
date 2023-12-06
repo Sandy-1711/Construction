@@ -1,13 +1,17 @@
+'use client'
 import data from '../datas/NavbarListData'
 import navcss from './Navbar.module.css'
 import createNavbarList from '../utils/NavbarList'
 import Link from 'next/link'
+import { useEffect, useState } from 'react'
 export default function Navbar() {
+    const [open, setOpen] = useState(false);
     function createNavbar() {
         return data.map(function (dataitem, index) {
             return createNavbarList(dataitem, index)
         })
     }
+
     return (<div className={navcss.navbarWrapper}>
         <div className={navcss.accordion}>
             <div className={navcss.accordionWrapper}>
@@ -73,6 +77,36 @@ export default function Navbar() {
                     {createNavbar()}
                 </ul>
                 <div className={navcss.inquiryButton}><button className='inquire'>INQUIRE NOW</button></div>
+            </div>
+        </div>
+        <div className={navcss.navbarMobile}>
+            <div className={navcss.navMobileWrapper}>
+
+                <div onClick={function () {
+                    setOpen(!open);
+                }} className={navcss.menu}>
+                    <div className={navcss.icon}>
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </div>
+                    <h2>MENU</h2>
+                </div>
+
+                {open && <div className={navcss.links}>
+
+                    <ul>
+                        <Link href={'/'}><li>HOME</li></Link>
+                        <Link href={'/about'}><li>ABOUT US</li></Link>
+                        <Link href={'/services'}><li>SERVICES</li></Link>
+                        <Link href={'/process'}><li>PROCESS</li></Link>
+                        <Link href={'/faqs'}><li>FAQs</li></Link>
+                        <Link href={'/contact'}><li>CONTACT</li></Link>
+                    </ul>
+                    <div className={navcss.button}>
+                        <button>INQUIRE NOW</button>
+                    </div>
+                </div>}
             </div>
         </div>
     </div>)
