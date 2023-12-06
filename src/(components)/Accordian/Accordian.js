@@ -4,6 +4,7 @@ import acss from './Accordian.module.css'
 import { useEffect, useLayoutEffect } from 'react'
 import gsap from 'gsap'
 import { ScrollTrigger } from 'gsap/all'
+import data from '../datas/FAQListData'
 export default function Accordion() {
     // useEffect(function () {
     //     var cards = document.querySelectorAll(`.${acss.card}`);
@@ -53,8 +54,8 @@ export default function Accordion() {
                     </div>
                     <div className={acss.ps}>
 
-                        <p>Question:</p>
-                        <p id="content1">Answer:ihoasdha sdgau dgyuagd uyasgui dgauydguyaguuoadsfuy uyfasu fubshdcbas usfyuasdjchdshsa dfiyag cuyasd uyaf  uuy gyugvyu u yf iyf ityf uuyufytt ty v</p>
+                        <p>{data[0].question}</p>
+                        <p id="content1">{data[0].answer}</p>
                     </div>
                 </div>
                 <div className={acss.card} onClick={() => toggleAccordion(2)}>
@@ -63,8 +64,8 @@ export default function Accordion() {
                     </div>
                     <div className={acss.ps}>
 
-                        <p>Question:</p>
-                        <p id='content2'>Answer:ihoasdha sdgau dgyuagd uyasgui dgauydguyaguuoadsfuy uyfasu fubshdcbas usfyuasdjchdshsa dfiyag cuyasd uyaf  uuy gyugvyu u yf iyf ityf uuyufytt ty v</p>
+                        <p>{data[1].question}</p>
+                        <p id='content2'>{data[1].answer}</p>
                     </div>
                 </div>
                 <div className={acss.card} onClick={() => toggleAccordion(3)}>
@@ -73,8 +74,8 @@ export default function Accordion() {
                     </div>
                     <div className={acss.ps}>
 
-                        <p>Question:</p>
-                        <p id='content3'>Answer:ihoasdha sdgau dgyuagd uyasgui dgauydguyaguuoadsfuy uyfasu fubshdcbas usfyuasdjchdshsa dfiyag cuyasd uyaf  uuy gyugvyu u yf iyf ityf uuyufytt ty v</p>
+                        <p>{data[2].question}</p>
+                        <p id='content3'>{data[2].answer}</p>
                     </div>
                 </div>
                 <div className={acss.card} onClick={() => toggleAccordion(4)}>
@@ -83,8 +84,8 @@ export default function Accordion() {
                     </div>
                     <div className={acss.ps}>
 
-                        <p>Question:</p>
-                        <p id='content4'>Answer:ihoasdha sdgau dgyuagd uyasgui dgauydguyaguuoadsfuy uyfasu fubshdcbas usfyuasdjchdshsa dfiyag cuyasd uyaf  uuy gyugvyu u yf iyf ityf uuyufytt ty v</p>
+                        <p>{data[3].question}</p>
+                        <p id='content4'>{data[3].answer}</p>
                     </div>
                 </div>
                 <div className={acss.card} onClick={() => toggleAccordion(5)}>
@@ -93,8 +94,8 @@ export default function Accordion() {
                     </div>
                     <div className={acss.ps}>
 
-                        <p>Question:</p>
-                        <p id='content5'>Answer:ihoasdha sdgau dgyuagd uyasgui dgauydguyaguuoadsfuy uyfasu fubshdcbas usfyuasdjchdshsa dfiyag cuyasd uyaf  uuy gyugvyu u yf iyf ityf uuyufytt ty v</p>
+                        <p>{data[4].question}</p>
+                        <p id='content5'>{data[4].answer}</p>
                     </div>
                 </div>
 

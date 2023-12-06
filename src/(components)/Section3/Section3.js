@@ -36,13 +36,13 @@ export default function Section3() {
                         }
                         proc.innerHTML = inside + '+';
 
-                    }, 10)
+                    }, 100)
                     setInterval(function () {
                         if (insidehapc === datahapc) {
                             clearInterval();
                         }
                         if (insidehapc < datahapc) {
-                            insidehapc = insidehapc + 1000;
+                            insidehapc = insidehapc + 20;
                         }
                         else {
                             insidehapc = datahapc;
@@ -60,7 +60,7 @@ export default function Section3() {
                             hapc.innerHTML = insidehapc + '+';
                         }
 
-                    }, 10)
+                    }, 100)
                 }
 
         })
@@ -72,22 +72,22 @@ export default function Section3() {
             <div className={sec3css.text}>
                 <span>EAVANA INFRATECH A CONSTRUCTION COMPANY</span>
                 <h2>Best Provider for Construction Services</h2>
-                <span>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</span>
+                {/* <span>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</span> */}
                 <p>Evana Infratech was founded with the noble motive of providing the best construction services at affordable prices to clients. The company has completed hundreds of projects in multiple fields of construction. It’s a one-stop solution for all your construction-related needs. The company is led by a group of enthusiasts and professionals, who deliver the best of services.
                 </p>
             </div>
             <div className={sec3css.banners}>
                 <div className={sec3css.banner}>
-                    <img src='/HeroBackgroundImage.png' />
+                    <img src='/Construction.jpg' />
                     <div>
-                        <h2 id='proc' data='900' >0</h2>
+                        <h2 id='proc' data='100' >0</h2>
                         <p>PROJECT COMPLETED</p>
                     </div>
                 </div>
                 <div className={sec3css.banner}>
-                    <img src='/HeroBackgroundImage.png' />
+                    <img src='/family.jpg' />
                     <div>
-                        <h2 id='hapc' data='54900'>0</h2>
+                        <h2 id='hapc' data='100'>0</h2>
                         <p>HAPPY CUSTOMERS</p>
                     </div>
                 </div>

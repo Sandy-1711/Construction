@@ -6,7 +6,7 @@ export default function Sec2Ad() {
     </div>
     <div className={sec2css.adText}>
         <h2>PROVIDING PERSONALIZED AND HIGH QUALITY SERVICES</h2>
-        <p>We can manage your dream building A small river named Duden flows by their place</p>
+        <p>We infuse technology into construction to make the buildings strong & durable</p>
         <button>REQUEST A QUOTE</button>
     </div>
 </div>

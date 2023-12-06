@@ -3,31 +3,31 @@ export default function OurTeam() {
     return <section className={teamcss.section}>
         <div className={teamcss.wrapper}>
             <div className={teamcss.text}>
-                <span>OUR TEAM</span>
+                <span>OUR CORE TEAM</span>
                 <h2>Our Team</h2>
             </div>
             <div className={teamcss.cards}>
                 <div className={teamcss.card}>
-                    <img src='/Ajay-Shah.jpg' />
+                    <img src='/Ajay-Sah.jpg' />
                     <div className={teamcss.cardText}>
 
-                        <h2>Ajay Shah</h2>
+                        <h2>Ajay Sah</h2>
                         <span>Managing Director</span>
                     </div>
                 </div>
                 <div className={teamcss.card}>
-                    <img src='/Rashmi-Shah.jpg' />
+                    <img src='/Rashmi-Sah.jpg' />
                     <div className={teamcss.cardText}>
 
-                        <h2>Rashmi Shah</h2>
+                        <h2>Rashmi Sah</h2>
                         <span>Director</span>
                     </div>
                 </div>
                 <div className={teamcss.card}>
-                    <img src='/Sanjay-Shah.jpg' />
+                    <img src='/Sanjay-Sah.jpg' />
                     <div className={teamcss.cardText}>
 
-                        <h2>Sanjay Shah</h2>
+                        <h2>Sanjay Sah</h2>
                         <span>Legal Head</span>
                     </div>
                 </div>
@@ -36,7 +36,7 @@ export default function OurTeam() {
                     <div className={teamcss.cardText}>
 
                         <h2>Miraz Khan</h2>
-                        <span>Head Technical & Engineering</span>
+                        <span>Technical & Engineering Head</span>
                     </div>
                 </div>
                 <div className={teamcss.card}>
@@ -44,7 +44,7 @@ export default function OurTeam() {
                     <div className={teamcss.cardText}>
 
                         <h2>Brajesh Roy</h2>
-                        <span>Head, Purchase & Engineering</span>
+                        <span>Purchase & Engineering Head</span>
                     </div>
                 </div>
                 <div className={teamcss.card}>
@@ -52,7 +52,7 @@ export default function OurTeam() {
                     <div className={teamcss.cardText}>
 
                         <h2>Nitin Jha</h2>
-                        <span>Head, Operation & Management</span>
+                        <span>Operation & Management Head</span>
                     </div>
                 </div>
                 <div className={teamcss.card}>
@@ -60,7 +60,7 @@ export default function OurTeam() {
                     <div className={teamcss.cardText}>
 
                         <h2>Wasim Ansari</h2>
-                        <span>Head, Marketing & Sales</span>
+                        <span>Marketing & Sales Head</span>
                     </div>
                 </div>
                 <div className={teamcss.card}>
@@ -68,7 +68,7 @@ export default function OurTeam() {
                     <div className={teamcss.cardText}>
 
                         <h2>Sanket Suman</h2>
-                        <span>Head, Planing & Designing</span>
+                        <span>Planing & Designing Head</span>
                     </div>
                 </div>
                 <div className={teamcss.card}>
@@ -76,7 +76,7 @@ export default function OurTeam() {
                     <div className={teamcss.cardText}>
 
                         <h2>Roshan Sonu</h2>
-                        <span>Field Manager Marketing</span>
+                        <span>Field Marketing Manager</span>
                     </div>
                 </div>
 

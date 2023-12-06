@@ -7,7 +7,7 @@ export default function Page() {
     LocoScroll(true)
     return <main data-scroll data-scroll-container>
         <Navbar />
-        <CustomHero h1={" > SERVICES >"} p={"SERVICES"} imgSrc={"/ConstructionAbout.png"} />
+        <CustomHero h1={" > OUR SERVICES >"} p={"SERVICES"} imgSrc={"/ConstructionAbout.png"} />
         <Services mappingdata={data} />
         <Footer />
         <Copyright />
