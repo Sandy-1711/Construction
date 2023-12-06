@@ -64,8 +64,8 @@ export default function Testimonial() {
                             <iframe width="560" height="315" src="https://www.youtube.com/embed/y5XoL2aTgVY?si=ujBRuvPcwlsLZrwt" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
                         </div>
                         <div>
-                            <p>Far far away behind the word mountains far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean</p>
-                            <h2>Jeff Freshman</h2>
+                            <p>Exceptional craftsmanship, timely completion, and attention to detail - our experience with Evana Infratech exceeded our expectations. Their team demonstrated professionalism, reliability, and a commitment to quality throughout the entire project. We highly recommend them for any construction needs.</p>
+                            <h2>Sagar Jha</h2>
                             <span>GUESTS</span>
                         </div>
                     </div>
@@ -75,8 +75,8 @@ export default function Testimonial() {
                             <iframe width="560" height="315" src="https://www.youtube.com/embed/y5XoL2aTgVY?si=ujBRuvPcwlsLZrwt" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
                         </div>
                         <div>
-                            <p>Far far away behind the word mountains far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean</p>
-                            <h2>Jeff Freshman</h2>
+                            <p>Choosing Evana Infratech was a game-changer for our project. Their expertise and collaborative approach made the construction process seamless. From concept to completion, the team displayed unmatched skill, turning our vision into a stunning reality. Trustworthy, efficient, and results-driven - they are our go-to construction partner</p>
+                            <h2>Mayank Tripathi</h2>
                             <span>GUESTS</span>
                         </div>
                     </div>
@@ -86,8 +86,8 @@ export default function Testimonial() {
                             <iframe width="560" height="315" src="https://www.youtube.com/embed/y5XoL2aTgVY?si=ujBRuvPcwlsLZrwt" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
                         </div>
                         <div>
-                            <p>Far far away behind the word mountains far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean</p>
-                            <h2>Jeff Freshman</h2>
+                            <p>Kudos to Evana Infratech for their impeccable work on our recent project. The team's dedication to excellence was evident in every aspect - from project management to the finest details of craftsmanship. Their commitment to timelines and transparent communication set them apart. We're delighted with the results and would gladly recommend them for any construction endeavor.</p>
+                            <h2>Virat Mhaske</h2>
                             <span>GUESTS</span>
                         </div>
                     </div>
@@ -97,8 +97,8 @@ export default function Testimonial() {
                             <iframe width="560" height="315" src="https://www.youtube.com/embed/y5XoL2aTgVY?si=ujBRuvPcwlsLZrwt" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
                         </div>
                         <div>
-                            <p>Far far away behind the word mountains far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean</p>
-                            <h2>Jeff Freshman</h2>
+                            <p>Evana Infratech went above and beyond in transforming our vision into a functional and aesthetically pleasing reality. Their skilled team seamlessly blended creativity with precision, delivering a construction project that exceeded our expectations. Transparent communication and a customer-centric approach made the entire process enjoyable. We're grateful for their expertise and would choose them again without hesitation.</p>
+                            <h2>Priyanka Agarwal</h2>
                             <span>GUESTS</span>
                         </div>
                     </div>
@@ -108,8 +108,8 @@ export default function Testimonial() {
                             <iframe width="560" height="315" src="https://www.youtube.com/embed/y5XoL2aTgVY?si=ujBRuvPcwlsLZrwt" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
                         </div>
                         <div>
-                            <p>Far far away behind the word mountains far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean</p>
-                            <h2>Jeff Freshman</h2>
+                            <p>Working with Evana Infratech was a true pleasure. Their dedication to client satisfaction is unmatched. The team consistently demonstrated professionalism, innovation, and a commitment to delivering on time and within budget. From initial consultation to project completion, Evana Infratech proved to be reliable partners in creating a space that reflects our vision and exceeds our expectations. Highly recommended for their top-notch construction services.</p>
+                            <h2>Altaf Hussain</h2>
                             <span>GUESTS</span>
                         </div>
                     </div>

@@ -3,43 +3,43 @@ const data = [
         id: 1,
         imgSrc: '/HeroBackgroundImage.png',
         iconSrc: '/engineer.svg',
-        title: "Architecture",
-        desc: 'Far far away, behind the word mountains, far from the countries Vokalia and Consonantia'
+        title: "A to Z Building Construction",
+        desc: 'Evana Infratech: Building Dreams with Precision and Excellence.'
     },
     {
         id: 2,
         imgSrc: '/HeroBackgroundImage.png',
         iconSrc: '/engineer2.svg',
-        title: "Architecture",
-        desc: 'Far far away, behind the word mountains, far from the countries Vokalia and Consonantia'
+        title: "Assistance in Designing & Planning",
+        desc: 'Evana Infratech: Elevating Spaces Through Timeless Elegance and Innovation.'
     },
     {
         id: 3,
         imgSrc: '/HeroBackgroundImage.png',
         iconSrc: '/crane.svg',
-        title: "Architecture",
-        desc: 'Far far away, behind the word mountains, far from the countries Vokalia and Consonantia'
+        title: "Assistance in Legal Formalities",
+        desc: 'Evana Infratech: Navigating the Legal Landscape with Expertise and Integrity.'
     },
     {
         id: 4,
         imgSrc: '/HeroBackgroundImage.png',
         iconSrc: '/engineer.svg',
-        title: "Architecture",
-        desc: 'Far far away, behind the word mountains, far from the countries Vokalia and Consonantia'
+        title: "Post Construction Maintenance",
+        desc: 'Evana Infratech: Preserving Excellence, Ensuring the Longevity of Your Investments.'
     },
     {
         id: 5,
         imgSrc: '/HeroBackgroundImage.png',
         iconSrc: '/engineer2.svg',
-        title: "Architecture",
-        desc: 'Far far away, behind the word mountains, far from the countries Vokalia and Consonantia'
+        title: "Complete Interior Solutions",
+        desc: 'Evana Infratech: Crafting Intimate Spaces that Speak to Style and Comfort.'
     },
     {
         id: 6,
         imgSrc: '/HeroBackgroundImage.png',
         iconSrc: '/crane.svg',
-        title: "Architecture",
-        desc: 'Far far away, behind the word mountains, far from the countries Vokalia and Consonantia'
+        title: "Assistance in Land Purchase",
+        desc: 'Evana Infratech: Your Path to Prime Real Estate, Expertly Guided.'
     },
 ]
 export default data

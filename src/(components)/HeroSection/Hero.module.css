@@ -56,8 +56,8 @@
 .heroText h1 {
     font-size: 60px;
     color: white;
-    font-weight: 900;
-    width: 50%;
+    font-weight: 600;
+    width: 100%;
 }
 
 .heroText p {
@@ -94,7 +94,8 @@
     .heroWrapper {
         width: 990px;
     }
-    .heroText h1{
+
+    .heroText h1 {
         font-size: 40px;
     }
 }
@@ -103,21 +104,30 @@
     .heroWrapper {
         width: 800px;
     }
-    
+
 
 }
+
 @media screen and (width<800px) {
-    .heroWrapper{
+    .heroWrapper {
         width: 100%;
     }
-    .heroText{
+
+    .heroText {
         left: 10px;
     }
-    .heroText h1{
+
+    .heroText h1 {
         font-size: 30px;
     }
 
 }
+
 @media screen and (width<480px) {
-    
+    .heroText h1{
+        width: 80%;
+    }
+    .heroText p{
+        width: 90%;
+    }
 }

@@ -131,6 +131,10 @@
 }
 
 @media screen and (width<800px) {
+    .section {
+        height: 80vh;
+    }
+
     .wrapper {
         width: 100%;
         flex-direction: column;

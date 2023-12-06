@@ -245,7 +245,7 @@
 
 @media screen and (width<990px) {
     .wrapper {
-        width: 90%;
+        width: 95%;
     }
 
     .aboutImage {
@@ -334,7 +334,7 @@
         /* padding: 100px; */
     }
 
-    
+
 
     .adText h2 {
         font-size: 120%;
