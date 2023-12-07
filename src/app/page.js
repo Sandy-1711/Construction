@@ -13,7 +13,7 @@ export default function Page() {
       <Navbar />
       <Hero />
       <Section2 />
-      <Services />
+      <Services showMoreButton={true}/>
       <Section3 />
       <LatestProjects />
       <Testimonial />

@@ -4,6 +4,7 @@ import HeroImage from '../HeroImage/HeroImage'
 import herocss from './Hero.module.css'
 import gsap from 'gsap'
 import { ScrollTrigger } from 'gsap/all'
+import Link from 'next/link'
 export default function Hero() {
 
     return (<section className={herocss.heroSection}>
@@ -12,8 +13,8 @@ export default function Hero() {
                 <h1>WE BUILD<br/> GREAT PROJECTS</h1>
                 <p>&quot;We shape our buildings; thereafter, they shape us.&quot; - Winston Churchill</p>
                 <div>
-                    <button>OUR SERVICES</button>
-                    <button>REQUEST A QUOTE</button>
+                    <Link href={'/services'}><button>OUR SERVICES</button></Link>
+                    <button className='inquire'>REQUEST A QUOTE</button>
                 </div>
             </div>
         </div>

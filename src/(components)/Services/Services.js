@@ -5,7 +5,8 @@ import createServiceCard from '../utils/CreateServiceCard'
 import servicecss from './Services.module.css'
 import gsap from 'gsap'
 import { ScrollTrigger } from 'gsap/all'
-export default function Services({ mappingdata, ...props }) {
+import Link from 'next/link'
+export default function Services({ mappingdata, showMoreButton, ...props }) {
 
     useLayoutEffect(function () {
         gsap.registerPlugin(ScrollTrigger)
@@ -20,7 +21,7 @@ export default function Services({ mappingdata, ...props }) {
         })
         gsap.to(`.${servicecss.service}`, {
             opacity: 1,
-            stagger:0.05,
+            stagger: 0.05,
             y: 0,
             delay: 0.25,
             scrollTrigger: {
@@ -45,6 +46,9 @@ export default function Services({ mappingdata, ...props }) {
                     return createServiceCard(dataitem)
                 })}
             </div>
+            {showMoreButton &&
+                <Link href={'/services'}><button>SHOW MORE</button></Link>
+            }
         </div>
     </section>)
 }

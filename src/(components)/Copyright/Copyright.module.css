@@ -36,9 +36,12 @@
     width: 100% /2;
     color: rgba(255, 255, 255, 0.7);
     z-index: 1;
+    font-size: 14px;
     /* transform: skew(-0deg); */
 }
-
+.wrapper a{
+    text-decoration: none;
+}
 @media screen and (width<1100px) {
     .wrapper {
         width: 990px;

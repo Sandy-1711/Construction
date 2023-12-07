@@ -56,7 +56,7 @@
 .service {
     background: white;
     box-shadow: 0 0px 1px grey;
-    height: max-content;
+    height: 500px;
     width: 100%;
     margin: 40px auto;
     padding-bottom: 3rem;
@@ -66,7 +66,7 @@
 }
 
 .serviceImage {
-    height: calc(100% / 2.5);
+    height: 200px;
     width: calc(100% - 30px);
     margin: 15px auto;
     margin-bottom: 0;
@@ -133,6 +133,18 @@
     width: 100%;
     background: #040e26;
     cursor: pointer;
+}
+
+.serviceWrapper a button {
+    border: none;
+    outline: none;
+    padding: 14px 20px;
+    cursor: pointer;
+    color: white;
+    border-radius: 5px;
+    font-size: 18px;
+    font-weight: 500;
+    background: var(--red);
 }
 
 .serviceText p {

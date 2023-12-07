@@ -9,6 +9,6 @@ const data = {
     facebook: "https://www.facebook.com/evanainfratech",
     twitter: '',
     web: 'evanainfratech.in',
-    yt: 'https://youtube.com/@EvanaInfratech'
+    youtube: 'https://youtube.com/@EvanaInfratech'
 }
 export default data;

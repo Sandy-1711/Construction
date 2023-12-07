@@ -24,8 +24,8 @@ export default function Sec2Cards() {
                 <img src='/engineer.svg' />
             </div>
             <div className={sec2css.text}>
-                <h2>Quality Construction</h2>
-                <p>A small river named Duden flows by their place and supplies it with the necessary regelialia.</p>
+                <h2>Quality Design</h2>
+                <p>Quality design seamlessly blends form and function, enhancing both aesthetics and user experience.</p>
             </div>
         </div>
         <div className={sec2css.card}>
@@ -34,7 +34,7 @@ export default function Sec2Cards() {
             </div>
             <div className={sec2css.text}>
                 <h2>Quality Construction</h2>
-                <p>A small river named Duden flows by their place and supplies it with the necessary regelialia.</p>
+                <p>Quality construction is the meticulous art of translating blueprints into robust structures, marrying durability with precision.</p>
             </div>
         </div>
         <div className={sec2css.card}>
@@ -42,8 +42,8 @@ export default function Sec2Cards() {
                 <img src='/crane.svg' />
             </div>
             <div className={sec2css.text}>
-                <h2>Quality Construction</h2>
-                <p>A small river named Duden flows by their place and supplies it with the necessary regelialia.</p>
+                <h2>Quality Execution</h2>
+                <p>Quality execution manifests in the flawless implementation of plans, where attention to detail converges with efficient action.</p>
             </div>
         </div>
     </div>

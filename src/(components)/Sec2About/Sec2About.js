@@ -27,7 +27,7 @@ export default function Sec2About() {
         </div>
         <div className={sec2css.aboutText}>
             <span>WELCOME TO EVANA INFRATECH</span>
-            <h2>EVANA INFRATECH a Construction Company</h2>
+            <h2>Evana Infratech a Construction Company</h2>
             <div className={sec2css.aboutP}>
                 <img src='/hammer.svg' />
                 <p>The field of construction is as old as Indian civilisation. Marvellous and splendid civil structures of the Indus Valley civilisation are still a part of discussion in the world of civil engineering. With the sprawl of rapid urbanisation in India, the field of construction has become an ever-expanding arena. On an almost daily basis, we could see additions of new technologies and types of equipment.

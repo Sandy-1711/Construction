@@ -1,7 +1,7 @@
 const data = [
     {
         id: 1,
-        imgSrc: '/HeroBackgroundImage.png',
+        imgSrc: '/AtoZConstruction.jpg',
         iconSrc: '/engineer.svg',
         title: "A to Z Building Construction",
         desc: 'Evana Infratech: Building Dreams with Precision and Excellence.'
@@ -15,7 +15,7 @@ const data = [
     },
     {
         id: 3,
-        imgSrc: '/HeroBackgroundImage.png',
+        imgSrc: '/LegalAssistance.jpg',
         iconSrc: '/crane.svg',
         title: "Assistance in Legal Formalities",
         desc: 'Evana Infratech: Navigating the Legal Landscape with Expertise and Integrity.'

@@ -83,8 +83,11 @@
 
 }
 
-.logo {
-    font-weight: 900;
+.logo img {
+    /* height: 100px; */
+    min-width: 250px;
+    height: 100%;
+    /* font-weight: 900; */
 }
 
 .upper img {

@@ -5,7 +5,7 @@ export default function Copyright() {
         <div className={copycss.copyLeft}>
         </div>
         <div className={copycss.wrapper}>
-            <p>Copyright @2023 All rights reserved!</p>
+            <p>Copyright @2023 - <a href='http://webaccuracy.com' target='blank'>Designed by Web Accuracy</a></p>
         </div>
     </div>
 }

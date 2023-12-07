@@ -18,7 +18,7 @@
 
 .text {
     text-align: center;
-    transform: translate(0,20px);
+    transform: translate(0, 20px);
     opacity: 0;
 }
 
@@ -37,15 +37,16 @@
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 40px;
+    margin-bottom: 40px;
 
 }
 
 .project {
     height: 250px;
     width: 100%;
-    margin: 40px;
+    /* margin: 40px; */
     position: relative;
-    transform: translate(0,20px);
+    transform: translate(0, 20px);
     opacity: 0;
 }
 
@@ -88,19 +89,24 @@
     margin-top: 10px;
     font-size: 15px;
 }
-.project:hover .projectInfo{
+
+.project:hover .projectInfo {
     background: #FC5E28;
 }
-.project:hover h2{
+
+.project:hover h2 {
     color: white;
 }
-.project:hover p{
+
+.project:hover p {
     color: white;
 }
-.project:hover span{
+
+.project:hover span {
     background: #ff6f3f;
     color: white;
 }
+
 @media screen and (width<1100px) {
     .latestProjectWrapper {
         width: 990px;
@@ -112,27 +118,32 @@
         width: 800px;
     }
 }
+
 @media screen and (width<800px) {
-    .latestProjectWrapper{
+    .latestProjectWrapper {
         width: 100%;
         gap: 20px;
     }
-    .text p{
+
+    .text p {
         margin: 0;
     }
-    .projects{
+
+    .projects {
         width: 80%;
-        grid-template-columns: repeat(1,1fr);
+        grid-template-columns: repeat(1, 1fr);
         gap: 80px;
     }
-    .project{
+
+    .project {
         height: 300px;
         width: 100%;
         margin: 0;
     }
 }
+
 @media screen and (width<480px) {
-    .projects{
+    .projects {
         width: 95%;
     }
 }

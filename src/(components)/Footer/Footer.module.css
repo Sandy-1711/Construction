@@ -20,7 +20,7 @@
 }
 
 .footerList h2 {
-    margin-bottom: 40px;
+    margin-bottom: 20px;
     font-size: 18px;
     color: white;
     font-weight: 400;
@@ -38,6 +38,8 @@
 }
 
 .footerList ul li a {
+    text-decoration: none;
+    color: var(--textColor);
     font-size: 15px;
     line-height: 1.8rem;
 }
@@ -47,10 +49,28 @@
 }
 
 .footerList p {
-    width: 60%;
+    width: 100%;
     font-size: 15px;
     color: grey;
     line-height: 1.8rem;
+}
+
+.socials {
+    display: flex;
+    margin-top: 10px;
+    gap: 2.5px;
+}
+
+.svgContainer {
+    height: 30px;
+    width: 30px;
+    background: #1E273C;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    margin-right: 2px;
 }
 
 @media screen and (width<1100px) {
@@ -63,7 +83,8 @@
     .footerWrapper {
         width: 800px;
     }
-    .footerList{
+
+    .footerList {
         width: 50%;
         padding: 15px;
     }
@@ -73,15 +94,17 @@
     .footerWrapper {
         width: 100%;
     }
-    .footerList{
+
+    .footerList {
         width: 95%;
         margin: auto;
     }
-    
-    .footerList ul li{
+
+    .footerList ul li {
         width: max-content;
     }
-    .footerList p{
+
+    .footerList p {
         width: 100%;
         line-height: normal;
         margin: 20px 0;

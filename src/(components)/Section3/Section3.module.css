@@ -3,6 +3,7 @@
     height: 70vh;
     /* padding: 5rem 0; */
     display: flex;
+    padding-top: 2.5rem;
     position: relative;
 }
 
