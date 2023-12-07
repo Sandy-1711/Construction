@@ -18,43 +18,43 @@ export default function Process() {
                 <div className={processcss.navItems}>
                     <h2>Pre-Construction Phase</h2>
                     <div className={processcss.navSubItems}>
-                        <Link href={'#A1'}>
+                        <a href={'#A1'}>
                             <div className={processcss.navitem}><h2>Acquire of Land/Plot</h2></div>
-                        </Link>
-                        <Link href={'#A2'}>
+                        </a>
+                        <a href={'#A2'}>
                             <div className={processcss.navitem}><h2>Get all legal obligations like mutation,holding,tax, etc</h2></div>
-                        </Link>
-                        <Link href={'#A3'}>
+                        </a>
+                        <a href={'#A3'}>
                             <div className={processcss.navitem}><h2>Preparation of rough estimate & plan</h2></div>
-                        </Link>
-                        <Link href={'#A4'}>
+                        </a>
+                        <a href={'#A4'}>
                             <div className={processcss.navitem}><h2>Preparation of floor plan and map</h2></div>
-                        </Link>
-                        <Link href={'#A5'}>
+                        </a>
+                        <a href={'#A5'}>
                             <div className={processcss.navitem}><h2>Permission from Authorities/Municipal</h2></div>
-                        </Link>
+                        </a>
                     </div>
                 </div>
                 <div className={processcss.navItems}>
                     <h2>During Building Construction Phase</h2>
                     <div className={processcss.navSubItems}>
 
-                        <Link href={'#B1'}><div className={processcss.navitem}><h2>Site Clearance/Levelling Work</h2></div></Link>
-                        <Link href={'#B2'}><div className={processcss.navitem}><h2>Excavation and PCC</h2></div></Link>
-                        <Link href={'#B3'}><div className={processcss.navitem}><h2>Foundation Work</h2></div></Link>
-                        <Link href={'#B4'}><div className={processcss.navitem}><h2>Plinth Beam/Slab</h2></div></Link>
-                        <Link href={'#B5'}><div className={processcss.navitem}><h2>Superstructure-Column</h2></div></Link>
-                        <Link href={'#B6'}><div className={processcss.navitem}><h2>Brick Masonry Work</h2></div></Link>
-                        <Link href={'#B7'}><div className={processcss.navitem}><h2>The Lintel Over Door Window Gaps</h2></div></Link>
-                        <Link href={'#B8'}><div className={processcss.navitem}><h2>Floor Slab/Roof Structure</h2></div></Link>
-                        <Link href={'#B9'}><div className={processcss.navitem}><h2>Door Window Framing and Fixations</h2></div></Link>
-                        <Link href={'#B10'}><div className={processcss.navitem}><h2>Electrical and Plumbing</h2></div></Link>
-                        <Link href={'#B11'}><div className={processcss.navitem}><h2>Exterior Finishing</h2></div></Link>
-                        <Link href={'#B12'}><div className={processcss.navitem}><h2>Terrace and Roof Finishing</h2></div></Link>
-                        <Link href={'#B13'}><div className={processcss.navitem}><h2>Internal Finishes</h2></div></Link>
-                        <Link href={'#B14'}><div className={processcss.navitem}><h2>Woodwork and Fixture Fittings</h2></div></Link>
-                        <Link href={'#B15'}><div className={processcss.navitem}><h2>Waterproofing</h2></div></Link>
-                        <Link href={'#B16'}><div className={processcss.navitem}><h2>Painting Work</h2></div></Link>
+                        <a href={'#B1'}><div className={processcss.navitem}><h2>Site Clearance/Levelling Work</h2></div></a>
+                        <a href={'#B2'}><div className={processcss.navitem}><h2>Excavation and PCC</h2></div></a>
+                        <a href={'#B3'}><div className={processcss.navitem}><h2>Foundation Work</h2></div></a>
+                        <a href={'#B4'}><div className={processcss.navitem}><h2>Plinth Beam/Slab</h2></div></a>
+                        <a href={'#B5'}><div className={processcss.navitem}><h2>Superstructure-Column</h2></div></a>
+                        <a href={'#B6'}><div className={processcss.navitem}><h2>Brick Masonry Work</h2></div></a>
+                        <a href={'#B7'}><div className={processcss.navitem}><h2>The Lintel Over Door Window Gaps</h2></div></a>
+                        <a href={'#B8'}><div className={processcss.navitem}><h2>Floor Slab/Roof Structure</h2></div></a>
+                        <a href={'#B9'}><div className={processcss.navitem}><h2>Door Window Framing and Fixations</h2></div></a>
+                        <a href={'#B10'}><div className={processcss.navitem}><h2>Electrical and Plumbing</h2></div></a>
+                        <a href={'#B11'}><div className={processcss.navitem}><h2>Exterior Finishing</h2></div></a>
+                        <a href={'#B12'}><div className={processcss.navitem}><h2>Terrace and Roof Finishing</h2></div></a>
+                        <a href={'#B13'}><div className={processcss.navitem}><h2>Internal Finishes</h2></div></a>
+                        <a href={'#B14'}><div className={processcss.navitem}><h2>Woodwork and Fixture Fittings</h2></div></a>
+                        <a href={'#B15'}><div className={processcss.navitem}><h2>Waterproofing</h2></div></a>
+                        <a href={'#B16'}><div className={processcss.navitem}><h2>Painting Work</h2></div></a>
                     </div>
                 </div>
             </div>

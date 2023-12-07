@@ -83,7 +83,7 @@ export default function Testimonial() {
                         <div>
                             <iframe width="560" height="315" src="https://www.youtube.com/embed/VSEvnnljxnc?si=refkGBPTOxfvcYPu" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>                        </div>
                         <div>
-                            <p>Kudos to Evana Infratech for their impeccable work on our recent project. The team's dedication to excellence was evident in every aspect - from project management to the finest details of craftsmanship. Their commitment to timelines and transparent communication set them apart. We're delighted with the results and would gladly recommend them for any construction endeavor.</p>
+                            <p>Kudos to Evana Infratech for their impeccable work on our recent project. The team&apos;s dedication to excellence was evident in every aspect - from project management to the finest details of craftsmanship. Their commitment to timelines and transparent communication set them apart. We&apos;re delighted with the results and would gladly recommend them for any construction endeavor.</p>
                             <h2>Virat Mhaske</h2>
                             <span>GUESTS</span>
                         </div>
@@ -93,7 +93,7 @@ export default function Testimonial() {
                         <div>
                             <iframe width="560" height="315" src="https://www.youtube.com/embed/VSEvnnljxnc?si=refkGBPTOxfvcYPu" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>                        </div>
                         <div>
-                            <p>Evana Infratech went above and beyond in transforming our vision into a functional and aesthetically pleasing reality. Their skilled team seamlessly blended creativity with precision, delivering a construction project that exceeded our expectations. Transparent communication and a customer-centric approach made the entire process enjoyable. We're grateful for their expertise and would choose them again without hesitation.</p>
+                            <p>Evana Infratech went above and beyond in transforming our vision into a functional and aesthetically pleasing reality. Their skilled team seamlessly blended creativity with precision, delivering a construction project that exceeded our expectations. Transparent communication and a customer-centric approach made the entire process enjoyable. We&apos;re grateful for their expertise and would choose them again without hesitation.</p>
                             <h2>Priyanka Agarwal</h2>
                             <span>GUESTS</span>
                         </div>
