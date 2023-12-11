@@ -54,7 +54,7 @@ export default function Navbar() {
         </div>
         <div className={navcss.upper}>
             <div className={navcss.logo}>
-                <Link style={{ textDecoration: 'none' }} href={cdata.web}>
+                <Link style={{ textDecoration: 'none' }} href={'/'}>
                     <img src='/Logo.png' />
                 </Link>
             </div>
