@@ -1,6 +1,6 @@
 'use client'
 import { useLayoutEffect } from 'react'
-import CreateFAQs from '../utils/CreateFAQs'
+// import CreateFAQs from '../utils/CreateFAQs'
 import faqcss from './FAQ.module.css'
 import gsap from 'gsap'
 import { ScrollTrigger } from 'gsap/all'
